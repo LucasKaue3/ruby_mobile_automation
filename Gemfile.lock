@@ -1,0 +1,61 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    appium_lib (10.5.0)
+      appium_lib_core (~> 3.3)
+      nokogiri (~> 1.8, >= 1.8.1)
+      tomlrb (~> 1.1)
+    appium_lib_core (3.3.0)
+      faye-websocket (~> 0.10.0)
+      selenium-webdriver (~> 3.14, >= 3.14.1)
+    ast (2.4.0)
+    childprocess (3.0.0)
+    coderay (1.1.2)
+    eventmachine (1.2.7-x64-mingw32)
+    eventmachine (1.2.7-x86-mingw32)
+    faye-websocket (0.10.9)
+      eventmachine (>= 0.12.0)
+      websocket-driver (>= 0.5.1)
+    jaro_winkler (1.5.4)
+    method_source (0.9.2)
+    mini_portile2 (2.4.0)
+    nokogiri (1.10.7-x64-mingw32)
+      mini_portile2 (~> 2.4.0)
+    nokogiri (1.10.7-x86-mingw32)
+      mini_portile2 (~> 2.4.0)
+    parallel (1.19.1)
+    parser (2.7.0.2)
+      ast (~> 2.4.0)
+    pry (0.12.2)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
+    rainbow (3.0.0)
+    rubocop (0.79.0)
+      jaro_winkler (~> 1.5.1)
+      parallel (~> 1.10)
+      parser (>= 2.7.0.1)
+      rainbow (>= 2.2.2, < 4.0)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (>= 1.4.0, < 1.7)
+    ruby-progressbar (1.10.1)
+    rubyzip (2.0.0)
+    selenium-webdriver (3.142.6)
+      childprocess (>= 0.5, < 4.0)
+      rubyzip (>= 1.2.2)
+    tomlrb (1.2.9)
+    unicode-display_width (1.6.0)
+    websocket-driver (0.7.1)
+      websocket-extensions (>= 0.1.0)
+    websocket-extensions (0.1.4)
+
+PLATFORMS
+  x64-mingw32
+  x86-mingw32
+
+DEPENDENCIES
+  appium_lib
+  pry
+  rubocop
+
+BUNDLED WITH
+   2.1.4
