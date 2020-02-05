@@ -2,6 +2,7 @@
 
 require 'appium_lib'
 require 'pry'
+require 'cucumber'
 
 def caps
   { caps: {
